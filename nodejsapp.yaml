@@ -32,6 +32,6 @@ spec:
     app: nodejs-app
   type: LoadBalancer
   ports:
-  - name: http
+  - name: tcp
     targetPort: 3000
     port: 8080
